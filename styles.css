@@ -104,6 +104,13 @@ nav a.active {
     border-color: var(--accent);
 }
 
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 main h2 {
     color: var(--primary);
     margin-bottom: 12px;
@@ -180,6 +187,7 @@ footer {
     padding: 10px 16px;
     border-radius: 8px;
     margin-top: 8px;
+    cursor: pointer;
 }
 
 @media (max-width:700px) {
