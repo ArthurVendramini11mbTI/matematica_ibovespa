@@ -135,6 +135,10 @@ main h2 {
     margin-bottom: 12px;
 }
 
+.section-card ul {
+    list-style: disc inside;
+}
+
 .section-grid {
     display: grid;
     gap: 18px;
