@@ -268,3 +268,13 @@ footer .footer-content {
     }
 }
 
+.bahia-icon {
+    width: 40px;
+    height: auto;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.bahia-icon:hover {
+    transform: scale(1.2);
+}
